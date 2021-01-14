@@ -1,0 +1,75 @@
+body {
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑, Arial, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://cn-south-227-storage-hitokoto-19627663.oss.dogecdn.com/pic/qf3cu.jpg");
+    background-color: rgba(0, 0, 0, .5);
+    background-blend-mode: multiply;
+
+}
+
+#quote-box {
+    color: white;
+    width: 600px;
+    z-index: 1;
+}
+
+.quote-right {
+    text-align: right;
+}
+
+.bracket {
+    font-size: 2rem;
+}
+
+#text {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0px 50px;
+    line-height: 50px;
+    word-break: normal;
+    margin: 0;
+}
+#author {
+    text-align: right;
+    padding: 20px 30px;
+    font-size: 1.25rem;
+}
+
+.button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 2rem;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.button:active {
+    outline: none;
+    border: none;
+}
+
+.control {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
